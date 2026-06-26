@@ -1,59 +1,59 @@
 # Da Infraestrutura Tradicional à Computação em Nuvem: Impactos na Eficiência, Custos e Agilidade Empresarial
 
-Análise estratégica e proposta de redesenho de processos de negócio para migração de infraestruturas legadas para o paradigma de computação em nuvem, alinhando eficiência operacional, governança e previsibilidade financeira[cite: 1].
+Análise estratégica e proposta de redesenho de processos de negócio para migração de infraestruturas legadas para o paradigma de computação em nuvem, alinhando eficiência operacional, governança e previsibilidade financeira.
 
 ---
 
 ## 📌 Sobre o Projeto
 
-Este repositório contém o estudo de caso e o mapeamento de processos desenvolvidos para a disciplina de **Gestão de Processos de Negócios (GPN)** na **Universidade Estadual do Ceará (UECE) - Campus Avançado de Mombaça**[cite: 1].
+Este repositório contém o estudo de caso e o mapeamento de processos desenvolvidos para a disciplina de **Gestão de Processos de Negócios (GPN)** na **Universidade Estadual do Ceará (UECE) - Campus Avançado de Mombaça**.
 
-O objetivo principal é analisar as transformações impostas pela computação em nuvem ao mercado de tecnologia, estabelecendo um comparativo prático entre o modelo tradicional (CAPEX) e o modelo em nuvem (OPEX), identificando os impactos multidimensionais dessa transição no ambiente corporativo[cite: 1].
+O objetivo principal é analisar as transformações impostas pela computação em nuvem ao mercado de tecnologia, estabelecendo um comparativo prático entre o modelo tradicional (CAPEX) e o modelo em nuvem (OPEX), identificando os impactos multidimensionais dessa transição no ambiente corporativo.
 
 ---
 
 ## ⚙️ Descrição do Processo & Atores
 
-O ciclo de migração fundamenta-se na modernização de sistemas legados, iniciando-se com o diagnóstico da infraestrutura vigente, avaliação de viabilidade financeira e definição do modelo de implantação (nuvem pública, privada, híbrida ou multicloud)[cite: 1]. O fluxo envolve uma equipe multidisciplinar[cite: 1]:
-*   **Gestores de TI:** Responsáveis pelo planejamento estratégico e aprovação de planos[cite: 1].
-*   **Equipe de Infraestrutura & Desenvolvedores:** Executam a adequação de aplicações, migração e testes[cite: 1].
-*   **Fornecedor do Serviço:** Responsável pela disponibilização de recursos e suporte via SLA[cite: 1].
-*   **Usuário Final:** Fornece o feedback após o acesso e uso dos serviços migrados[cite: 1].
+O ciclo de migração fundamenta-se na modernização de sistemas legados, iniciando-se com o diagnóstico da infraestrutura vigente, avaliação de viabilidade financeira e definição do modelo de implantação (nuvem pública, privada, híbrida ou multicloud). O fluxo envolve uma equipe multidisciplinar:
+*   **Gestores de TI:** Responsáveis pelo planejamento estratégico e aprovação de planos.
+*   **Equipe de Infraestrutura & Desenvolvedores:** Executam a adequação de aplicações, migração e testes.
+*   **Fornecedor do Serviço:** Responsável pela disponibilização de recursos e suporte via SLA.
+*   **Usuário Final:** Fornece o feedback após o acesso e uso dos serviços migrados.
 
 ---
 
 ## ⚠️ Desafios e Problemas Identificados (As-Is)
 
-Durante o mapeamento do fluxo linear tradicional, foram detectados os seguintes gargalos severos[cite: 1]:
-*   **Gargalos de Refatoração no Legado:** Migrar arquiteturas monolíticas sem adaptação prévia gera ciclos intermináveis de falha e retrabalho[cite: 1].
-*   **Estouro de Orçamento (75%):** Alto índice de organizações excedem o planejamento financeiro inicial durante a migração (dados McKinsey/BCG)[cite: 1].
-*   **Risco de Downtime Prolongado:** Média histórica de até 72 horas anuais de inatividade antes da otimização[cite: 1].
-*   **Silos de Conhecimento Operacional (41%):** Cerca de 41% da força técnica carece de proficiência imediata nas novas ferramentas, gerando dependência excessiva do fornecedor (dados Gartner)[cite: 1].
-*   **Vulnerabilidades de Conformidade:** Movimentação de grandes volumes de dados sem auditoria contínua expõe a empresa a quebras de regras de negócio[cite: 1].
-*   **Desconexão com o Usuário:** Coletar o feedback apenas no extremo fim do fluxo pode forçar o retorno do processo à estaca zero[cite: 1].
+Durante o mapeamento do fluxo linear tradicional, foram detectados os seguintes gargalos severos:
+*   **Gargalos de Refatoração no Legado:** Migrar arquiteturas monolíticas sem adaptação prévia gera ciclos intermináveis de falha e retrabalho.
+*   **Estouro de Orçamento (75%):** Alto índice de organizações excedem o planejamento financeiro inicial durante a migração (dados McKinsey/BCG).
+*   **Risco de Downtime Prolongado:** Média histórica de até 72 horas anuais de inatividade antes da otimização.
+*   **Silos de Conhecimento Operacional (41%):** Cerca de 41% da força técnica carece de proficiência imediata nas novas ferramentas, gerando dependência excessiva do fornecedor (dados Gartner).
+*   **Vulnerabilidades de Conformidade:** Movimentação de grandes volumes de dados sem auditoria contínua expõe a empresa a quebras de regras de negócio.
+*   **Desconexão com o Usuário:** Coletar o feedback apenas no extremo fim do fluxo pode forçar o retorno do processo à estaca zero.
 
 ---
 
 ## 🚀 Propostas de Melhoria & Redesenho (To-Be)
 
-Para mitigar os riscos operacionais e financeiros, o processo foi otimizado com as seguintes implementações[cite: 1]:
+Para mitigar os riscos operacionais e financeiros, o processo foi otimizado com las seguintes implementações:
 
-1.  **Infraestrutura como Código (IaC):** Automação do provisionamento via scripts (*Terraform/Ansible*) para eliminar erros e intervenções manuais do fornecedor[cite: 1].
-2.  **Triagem de Migração (Gateway de Decisão):** Inserção de um gateway estratégico para avaliar previamente o uso de *Rehost* (Lift-and-Shift) ou *Refactor* (reconstrução nativa)[cite: 1].
-3.  **Integração de FinOps & DevSecOps:** Inclusão do rastreamento em tempo real de OPEX e auditorias de segurança durante a transferência de dados[cite: 1].
-4.  **Centro de Excelência em Nuvem (CCoE):** Comitê multidisciplinar encarregado da governança técnica, financeira e de conformidade normativa[cite: 1].
+1.  **Infraestrutura como Código (IaC):** Automação do provisionamento via scripts (*Terraform/Ansible*) para eliminar erros e intervenções manuais do fornecedor.
+2.  **Triagem de Migração (Gateway de Decisão):** Inserção de um gateway estratégico para avaliar previamente o uso de *Rehost* (Lift-and-Shift) ou *Refactor* (reconstrução nativa).
+3.  **Integração de FinOps & DevSecOps:** Inclusão do rastreamento em tempo real de OPEX e auditorias de segurança durante a transferência de dados.
+4.  **Centro de Excelência em Nuvem (CCoE):** Comitê multidisciplinar encarregado da governança técnica, financeira e de conformidade normativa.
 
 ### 📉 Impacto Mensurável da Otimização
-*   **Eficiência Operacional:** Elevada para **94%**[cite: 1].
-*   **Redução de Custos (OPEX):** Queda do custo anual médio de \$450.000 para **\$220.000**[cite: 1].
-*   **Minimização de Downtime:** Reduzido de 72 horas para apenas **1 hora anual**[cite: 1].
-*   **Mitigação de Desperdício:** Controle do desperdício de nuvem ativa (média de 32% no mercado)[cite: 1].
+*   **Eficiência Operacional:** Elevada para **94%**.
+*   **Redução de Custos (OPEX):** Queda do custo anual médio de \$450.000 para **\$220.000**.
+*   **Minimização de Downtime:** Reduzido de 72 horas para apenas **1 hora anual**.
+*   **Mitigação de Desperdício:** Controle do desperdício de nuvem ativa (média de 32% no mercado).
 
 ---
 
 ## 📊 Dashboard Interativo de Business Intelligence
 
-Os indicadores macroeconômicos globais, a evolução temporal e os riscos de transição foram consolidados em um dashboard interativo para validação do redesenho do fluxo[cite: 1].
+Os indicadores macroeconômicos globais, a evolução temporal e os riscos de transição foram consolidados em um dashboard interativo para validação do redesenho do fluxo.
 
 🔗 **[Acesse o Dashboard Online no Power BI Service](https://app.powerbi.com/links/dfWMWYukbS?ctid=908c7dda-c74d-40de-947a-c8dd7f70524e&pbi_source=linkShare)**
 
@@ -86,14 +86,14 @@ Caso queira atualizar os dados ou o layout e sincronizar com a versão web:
 
 ## 🛠️ Tecnologias & Conceitos Chave
 
-*   **Cloud Providers:** AWS, Microsoft Azure, Google Cloud, Alibaba Cloud, Tencent Cloud[cite: 1].
-*   **Gestão Financeira:** CAPEX vs. OPEX / FinOps (Rastreamento em tempo real)[cite: 1].
-*   **Automação & Engenharia:** IaC (Infrastructure as Code) com Terraform/Ansible[cite: 1].
-*   **Modelagem de Processos:** BPMN (Mapeamento As-Is e To-Be)[cite: 1].
+*   **Cloud Providers:** AWS, Microsoft Azure, Google Cloud, Alibaba Cloud, Tencent Cloud.
+*   **Gestão Financeira:** CAPEX vs. OPEX / FinOps (Rastreamento em tempo real).
+*   **Automação & Engenharia:** IaC (Infrastructure as Code) com Terraform/Ansible.
+*   **Modelagem de Processos:** BPMN (Mapeamento As-Is e To-Be).
 
 ---
 
 ## 👥 Autor
 
-*   **Antônio Marcos Welinton Teixeira da Silva** - [antonio.welinton@aluno.uece.br](mailto:antonio.welinton@aluno.uece.br)[cite: 1]
-*   *Estudante de Sistemas de Informação - UECE Mombaça*[cite: 1]
+*   **Antônio Marcos Welinton Teixeira da Silva** - [antonio.welinton@aluno.uece.br](mailto:antonio.welinton@aluno.uece.br)
+*   *Estudante de Sistemas de Informação - UECE Mombaça*
